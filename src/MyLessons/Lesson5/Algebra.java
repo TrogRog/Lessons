@@ -1,4 +1,4 @@
-package MyLessons.Lesson4;
+package MyLessons.Lesson5;
 
 public class Algebra {
 

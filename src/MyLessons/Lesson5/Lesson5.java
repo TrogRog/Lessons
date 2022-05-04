@@ -1,7 +1,7 @@
-package MyLessons.Lesson4;
+package MyLessons.Lesson5;
 
 
-public class Lesson4 {
+public class Lesson5 {
     /*
     main программа
     */
