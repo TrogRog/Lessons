@@ -9,7 +9,8 @@ public class Lesson9 {
         int y = 0;
         for (String str : args) {  // Аргументы 1 2 33 4 55 7
             if (t < args.length) {
-                if ((Integer.parseInt(args[t]) % 2) == 1) {
+                if ((Integer.parseInt(args[t]) % 2) == 0) {
+                }  else {
                     System.out.println("аргумент " + t + " = " + args[t] + " не четный");
                 }
                 t++;
