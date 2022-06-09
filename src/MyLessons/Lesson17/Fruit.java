@@ -16,5 +16,8 @@ public abstract class Fruit {
         this.weight = weight;
     }
 
+    final void printManufacturerInfo(){
+        System.out.print("Made in Ukraine");}
+
     public abstract double costFruit();
 }
