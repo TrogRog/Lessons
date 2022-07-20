@@ -21,17 +21,17 @@ public class LessonMain {
                 x = false;
                 throw new WrongLoginException();
             }
-        } catch (WrongLoginException e) {
-            System.err.println("Login is incorrect");
-        }
-        try {
             if (!(pass.matches(regex) && pass.equals(conPass))) {
                 x = false;
                 throw new WrongPasswordException();
             }
+
+        } catch (WrongLoginException e) {
+            System.err.println("Login is incorrect");
         } catch (WrongPasswordException e) {
             System.err.println("Password is incorrect");
         }
+
         return x;
     }
 }
